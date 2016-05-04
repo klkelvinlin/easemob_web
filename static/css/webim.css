@@ -156,7 +156,7 @@ a:hover {
 }
 
 .talkTo {
-	
+
 }
 
 .talkTo li {
@@ -279,7 +279,7 @@ a:hover {
 	border-radius: 5px;
 	background-color: #C0C0C0;
 	position: relative;
-	/*padding: 5px 10px 5px 5px;*/ 
+	/*padding: 5px 10px 5px 5px;*/
 }
 
 .chat03_content ul {
@@ -302,7 +302,7 @@ a:hover {
 }
 
 .chat03_content ul li a {
-	
+
 }
 
 .chat03_content ul img {
@@ -384,7 +384,7 @@ a:hover {
 }
 
 .wl_faces_content .title ul {
-	
+
 }
 
 .wl_faces_content .title ul li {
@@ -419,7 +419,7 @@ a:hover {
 }
 
 .wl_faces_main {
-	
+
 }
 
 .wl_faces_main ul {
@@ -561,8 +561,12 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(../img/bg.jpg) no-repeat;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
     font: 14px 'Microsoft YaHei', Arial, sans-serif;
+		-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 }
 @font-face {
     font-family: 'webim';
@@ -578,7 +582,7 @@ body {
     margin: 0;
     padding: 0;
     -webkit-text-size-adjust: none;
-	-moz-text-size-adjust:none; 
+	-moz-text-size-adjust:none;
 	-ms-text-size-adjust: none;
 	-o-text-size-adjust: none;
 	text-size-adjust: none;
@@ -587,20 +591,20 @@ body {
 	-ms-appearance: none;
 	-o-appearance: none;
 	appearance: none;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     -webkit-tap-highlight-color: transparent;
 }
 a {
-    
+
 }
 a:visited {
-    
+
 }
 a:hover {
-    
+
 }
 a:active {
-    
+
 }
 ul, li {
     list-style: none;
@@ -611,7 +615,7 @@ button {
     padding: 0 10px;
 }
 input {
-    
+
 }
 input, textarea, button, img {
     border: none;
@@ -826,7 +830,7 @@ footer {
     animation: easemobWidget-loading 1s linear 0s infinite;
 }
 .emim-loading img {
-    
+
 }
 @-moz-keyframes easemobWidget-loading {
     0% {
@@ -998,7 +1002,7 @@ footer {
 }
 .emim-contact-avatar {
     vertical-align: middle;
-    margin: 6px 6px 6px 10px;   
+    margin: 6px 6px 6px 10px;
 }
 .emim-contact-username {
     display: inline-block;
@@ -1109,7 +1113,7 @@ footer {
     background-image: linear-gradient(90deg, rgba(229, 229, 229, 0) 0%, rgb(229, 229, 229) 50%, rgba(229, 229, 229, 0) 100%);
 }
 .emim-send-function-list span {
-    z-index: 1; 
+    z-index: 1;
     margin: 8px -18px 0 16px;
 }
 .emim-chat-send {
@@ -1148,7 +1152,7 @@ footer {
     color: #fff;
     font-size: 30px;
     height: 20px;
-    line-height: 20px;   
+    line-height: 20px;
 }
 .emim-face-wrapper li {
     display: inline-block;
